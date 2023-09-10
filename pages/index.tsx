@@ -66,7 +66,7 @@ const Home: NextPage = ({ images }: { images: ImageProps[] }) => {
             </p>
             <a
               className="pointer z-10 mt-6 rounded-lg border border-white bg-white px-3 py-2 text-sm font-semibold text-black transition hover:bg-white/10 hover:text-white md:mt-4"
-              href="https://hangout.zolplay.com/event/2?utm_source=photos&utm_medium=web&utm_campaign=2023-dev-hangout-1-photos"
+              href="https://hangout.zolplay.com/event/2?utm_source=photos&utm_medium=web&utm_campaign=2023-dev-hangout-2-photos"
               target="_blank"
               rel="noreferrer"
             >
