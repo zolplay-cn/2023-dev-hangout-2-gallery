@@ -30,14 +30,14 @@ const Home: NextPage = ({ images }: { images: ImageProps[] }) => {
   return (
     <>
       <Head>
-        <title>2023佐玩首届开发者交流会现场照片</title>
+        <title>2023佐玩首届加场开发者交流会现场照片</title>
         <meta
           property="og:image"
-          content="https://hangout-1-pics.zolplay.com/og-image.jpg"
+          content="https://hangout-2-pics.zolplay.com/og-image.png"
         />
         <meta
           name="twitter:image"
-          content="https://hangout-1-pics.zolplay.com/og-image.jpg"
+          content="https://hangout-2-pics.zolplay.com/og-image.png"
         />
       </Head>
       <main className="mx-auto max-w-[1960px] p-4">
@@ -59,14 +59,14 @@ const Home: NextPage = ({ images }: { images: ImageProps[] }) => {
             </div>
             <Logo />
             <h1 className="mt-8 mb-4 text-base font-bold uppercase tracking-widest">
-              2023佐玩首届开发者交流会现场照片
+              2023佐玩首届加场开发者交流会现场照片
             </h1>
             <p className="max-w-[40ch] text-white/75 sm:max-w-[32ch]">
               感谢每一位到场支持的朋友，佐玩非常荣幸能组织这次活动，希望大家能在这里收获知识，结交朋友，共同成长。
             </p>
             <a
               className="pointer z-10 mt-6 rounded-lg border border-white bg-white px-3 py-2 text-sm font-semibold text-black transition hover:bg-white/10 hover:text-white md:mt-4"
-              href="https://hangout.zolplay.com/event/1?utm_source=photos&utm_medium=web&utm_campaign=2023-dev-hangout-1-photos"
+              href="https://hangout.zolplay.com/event/2?utm_source=photos&utm_medium=web&utm_campaign=2023-dev-hangout-1-photos"
               target="_blank"
               rel="noreferrer"
             >
@@ -84,7 +84,7 @@ const Home: NextPage = ({ images }: { images: ImageProps[] }) => {
                 className="after:content group relative mb-5 block w-full cursor-zoom-in after:pointer-events-none after:absolute after:inset-0 after:rounded-lg after:shadow-highlight"
               >
                 <Image
-                  alt="2023佐玩首届开发者交流会照片"
+                  alt="2023佐玩首届加场开发者交流会照片"
                   className="transform rounded-lg brightness-90 transition will-change-auto group-hover:brightness-110"
                   style={{ transform: 'translate3d(0, 0, 0)' }}
                   placeholder="blur"

@@ -80,7 +80,7 @@ export default function SharedModal({
                   width={navigation ? 1280 : 1920}
                   height={navigation ? 853 : 1280}
                   priority
-                  alt="2023佐玩首届开发者交流会照片"
+                  alt="2023佐玩首届加场开发者交流会照片"
                   onLoadingComplete={() => setLoaded(true)}
                 />
               </motion.div>
@@ -128,7 +128,7 @@ export default function SharedModal({
                   </a>
                 ) : (
                   <a
-                    href={`https://twitter.com/intent/tweet?text=看看这张照片——2023佐玩首届开发者交流会%0A%0Ahttps://hangout-1-pics.zolplay.com/p/${index}`}
+                    href={`https://twitter.com/intent/tweet?text=看看这张照片——2023佐玩首届加场开发者交流会%0A%0Ahttps://hangout-1-pics.zolplay.com/p/${index}`}
                     className="rounded-full bg-black/50 p-2 text-white/75 backdrop-blur-lg transition hover:bg-black/75 hover:text-white"
                     target="_blank"
                     title="Open fullsize version"
